@@ -3,3 +3,4 @@
 Opgaver:
  - Dictionaries
  - Overloading
+ - Delegates (uden udfordring)
