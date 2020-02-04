@@ -47,7 +47,7 @@ namespace Dictionaries
 
             Student kasper = new Student("Kasper", 20);
             Student logan = new Student("Logan", 18);
-            Student viktor = new Student("Viktor", 8);
+            Student viktor = new Student("Victor", 8);
             Student sebastian = new Student("Sebastian", 25);
 
             dictionary[kasper] = true;
