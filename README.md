@@ -4,3 +4,4 @@ Opgaver:
  - Dictionaries
  - Overloading
  - Delegates (uden udfordring)
+ - Lambda Expressions
