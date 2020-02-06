@@ -5,6 +5,8 @@ Opgaver:
  - Overloading
  - Delegates (uden udfordringsopgaven)
  - Lambda Expressions
+ - Inheritance
+ - Abstract Classes and Interfaces
 
 
 Notater:
