@@ -7,6 +7,7 @@ Opgaver:
  - Lambda Expressions
  - Inheritance
  - Abstract Classes and Interfaces
+ - Opsummering Uge 1
 
 
 Notater:
