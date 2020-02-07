@@ -51,6 +51,8 @@ namespace KHHAHashMap
                 for(LinkedPair<KeyType, DataType> pair = oldBuckets[i]; pair != null; pair = pair.GetNext())
                 {
                     this[pair.GetKey()] = pair.GetData();
+                    pair.SetPrevious(null); // Not sure if necessary, or if the garbage collector knows that it is to be freed.
+                    pair.SetNext(null); //     ^
                 }
             }
         }
