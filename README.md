@@ -9,6 +9,7 @@ Opgaver:
  - Abstract Classes and Interfaces
  - Opsummering Uge 1
  - Access Modifiers
+ - Multithreading and Tasks
 
 
 Notater:
