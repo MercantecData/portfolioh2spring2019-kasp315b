@@ -8,6 +8,7 @@ Opgaver:
  - Inheritance
  - Abstract Classes and Interfaces
  - Opsummering Uge 1
+ - Access Modifiers
 
 
 Notater:
