@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpsummeringUge1
+namespace OpsummeringUge1.RettetTIl
 {
     public class Registry
     {
@@ -24,7 +24,14 @@ namespace OpsummeringUge1
 
         public bool Login(string login, string password)
         {
-            // Cant implement because of limiting access modifiers;
+            foreach(User user in users)
+            {
+                if (user.Login(login, password))
+                {
+                    return true;
+                }
+            }
+
             return false;
         }
     }

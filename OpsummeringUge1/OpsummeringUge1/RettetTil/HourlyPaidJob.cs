@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpsummeringUge1
+namespace OpsummeringUge1.RettetTIl
 {
-    public class DailyPaidJob : Job
+    public class HourlyPaidJob : Job
     {
-        private int DailyPay;
+        private int HourlyPay;
 
         public override int GetMonthlyPay()
         {
-            return DailyPay * 31; // pay * days in month
+            return HourlyPay * 8 * 31; // pay * work hours per day * days in month
         }
     }
 }

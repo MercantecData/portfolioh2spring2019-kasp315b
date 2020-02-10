@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpsummeringUge1
+namespace OpsummeringUge1.EfterTegningen
 {
     public class Admin
     {

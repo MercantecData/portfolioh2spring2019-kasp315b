@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpsummeringUge1
+namespace OpsummeringUge1.RettetTIl
 {
     public class User
     {
@@ -20,9 +20,19 @@ namespace OpsummeringUge1
             this.job = job;
         }
 
+        public bool Login(string login, string password)
+        {
+            return this.login.Equals(login) & this.password.Equals(password);
+        }
+
+        public void SetPassword(string password)
+        {
+            this.password = password;
+        }
+
         public bool IsAdmin()
         {
-            return false;
+            return this is Admin;
         }
     }
 }
